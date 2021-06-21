@@ -1,5 +1,5 @@
 {
-  "name": "node-2fa",
+  "name": "twofactor-auth",
   "version": "1.0.2",
   "description": "MFA Integration For Node.js",
   "author": "Digitalservices <devops@insureme.lk>",
