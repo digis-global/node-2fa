@@ -1,6 +1,6 @@
 {
   "name": "@digitalservices/twofactor-auth",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MFA Integration For Node.js",
   "author": "Digitalservices <devops@insureme.lk>",
   "main": "dist/index.js",
