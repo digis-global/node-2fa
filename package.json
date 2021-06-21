@@ -1,7 +1,8 @@
 {
   "name": "node-2fa",
   "version": "1.0.1",
-  "description": "Easy 2-Factor Integration For Node.js",
+  "description": "MFA Integration For Node.js",
+  "author": "Digitalservices <devops@insureme.lk>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
@@ -18,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/inme-digital-services/node-2fa"
   },
   "keywords": [
     "auth",
@@ -33,8 +34,8 @@
   "contributors": [
     ""
   ],
-  "license": "",
-  "homepage": "",
+  "license": "ISC",
+  "homepage": "https://github.com/inme-digital-services/node-2fa",
   "dependencies": {
     "express": "^4.17.1",
     "otplib": "^12.0.1",
