@@ -1,6 +1,6 @@
 {
   "name": "node-2fa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MFA Integration For Node.js",
   "author": "Digitalservices <devops@insureme.lk>",
   "main": "dist/index.js",
