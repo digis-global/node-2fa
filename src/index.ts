@@ -35,12 +35,14 @@ export function generateToken(secret: string) {
   if (!secret || !secret.length) return null;
   const unformatted = secret.replace(/\W+/g, "").toUpperCase();
   const bin = b32.decode(unformatted);
-  return { token: totp.generate(bin.toString()) };
+  // @ts-ignore
+  return { token: totp.generate(bin) };
 }
 
 export function verifyToken(secret: string, token?: string) {
   if (!token || !token.length) return null;
   const unformatted = secret.replace(/\W+/g, "").toUpperCase();
   const bin = b32.decode(unformatted).toString();
+  // @ts-ignore
   return totp.verify({ token: token, secret: bin });
 }
