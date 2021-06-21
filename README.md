@@ -8,11 +8,11 @@ This module uses [otplib](https://github.com/yeojz/otplib)  which implements TOT
 
 
 ``` 
-npm install
+npm i @digitalservices/twofactor-auth
 ```
 
 ```
-const twoFactor = require('');
+const twoFactor = require('@digitalservices/twofactor-auth');
 
 const secret = twofactor.generateSecret({ name: "My First App", account: "testAccount" });
 
