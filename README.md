@@ -2,7 +2,7 @@
 
 Two factor integration for node js.
 
-This module uses [otplib](libhttps://github.com/yeojz/otplib)  which implements TOTP ( RFC 6238 ) (the Authenticator standard), which is based on HOTP ( RFC 4226 ) to provide codes that are exactly compatible with all other Authenticator apps and services that use them.
+This module uses [otplib](https://github.com/yeojz/otplib)  which implements TOTP ( RFC 6238 ) (the Authenticator standard), which is based on HOTP ( RFC 4226 ) to provide codes that are exactly compatible with all other Authenticator apps and services that use them.
 
 ## Usage
 
