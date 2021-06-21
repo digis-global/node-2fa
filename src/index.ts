@@ -42,7 +42,7 @@ export function generateToken(secret: string) {
 export function verifyToken(secret: string, token?: string) {
   if (!token || !token.length) return null;
   const unformatted = secret.replace(/\W+/g, "").toUpperCase();
-  const bin = b32.decode(unformatted).toString();
+  const bin = b32.decode(unformatted);
   // @ts-ignore
   return totp.verify({ token: token, secret: bin });
 }
